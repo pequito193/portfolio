@@ -10,8 +10,8 @@ function Main(props) {
     return(
         <React.Fragment>
             <Routes>
-                <Route exact path="/" element={<Projects theme={theme} />} />
-                <Route exact path="/contact" element={<AboutMe theme={theme} />} />
+                <Route exact path="/portfolio" element={<Projects theme={theme} />} />
+                <Route exact path="/portfolio/contact" element={<AboutMe theme={theme} />} />
             </Routes>
         </React.Fragment>
     )
