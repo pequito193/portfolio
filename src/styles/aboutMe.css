@@ -1,0 +1,61 @@
+.wrapper {
+    padding: 28px;
+}
+
+.light#title {
+    font-size: 32px;
+    color: rgb(18, 18, 18);
+    margin-bottom: 18px;
+}
+
+.dark#title {
+    font-size: 32px;
+    color: rgb(188, 188, 188);
+    margin-bottom: 18px;
+}
+
+.light#introduction {
+    font-size: 20px;
+}
+
+.dark#introduction {
+    font-size: 20px;
+    color: rgb(210, 210, 210);
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.light#github {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.dark#github {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    filter: invert(100%);
+    transition: 0.5s;
+}
+
+.email {
+    background: url('./../assets/email.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55px;
+    width: 55px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.email:hover,
+.light#github:hover,
+.dark#github:hover {
+    opacity: 65%;
+}
