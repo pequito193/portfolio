@@ -1,0 +1,52 @@
+.header {
+    background-color: rgb(47, 47, 48);
+    padding: 10px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.github {
+    height: 50px;
+    filter: invert(90%);
+    border: 1px solid rgb(47, 47, 48);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dark-mode {
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(246, 246, 246);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.slider {
+    border: none;
+    height: 24px;
+    width: 24px;
+    border-radius: 10px;
+    transform: translateX(3px);
+    background-color: rgb(47, 47, 48);
+    transition: 0.5s;
+}
+
+.slider {
+    transform: translateX(33px);
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    padding: 24px;
+}
+
+.link {
+    font-size: 26px;
+    cursor: pointer;
+}
