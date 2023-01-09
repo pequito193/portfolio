@@ -9,7 +9,7 @@ function Header(props) {
     return(
         <React.Fragment>
             <div className={theme} id="header">
-                <a target='_blank' href="http://github.com/pequito193"><img src={require('./../assets/github.png')} alt="github logo" className="github"/></a>
+                <a target='_blank' rel="noreferrer" href="http://github.com/pequito193"><img src={require('./../assets/github.png')} alt="github logo" className="github"/></a>
                 <div className="slider-div" onClick={toggleTheme}>
                     <button onClick={toggleTheme} className={theme} id='slider'></button>
                 </div>
