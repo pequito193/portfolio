@@ -14,9 +14,9 @@ function Header(props) {
                     <button onClick={toggleTheme} className={theme} id='slider'></button>
                 </div>
             </div>
-            <ul className="links">
+            <ul className={theme} id="links">
                 <li><Link to={'/'} className="link" id={theme}>Projects</Link></li>
-                <li><Link className="link" id={theme}>About Me</Link></li>
+                <li><Link to={'/contact'} className="link" id={theme}>About Me</Link></li>
             </ul>
         </React.Fragment>
     )
