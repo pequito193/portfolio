@@ -1,9 +1,19 @@
-.header {
-    background-color: rgb(47, 47, 48);
+.light#header {
+    background-color: rgb(45, 46, 48);
     padding: 10px 32px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 4px 4px 6px rgb(173, 173, 173);
+}
+
+.dark#header {
+    background-color: rgb(45, 46, 48);
+    padding: 10px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 4px 4px 6px rgb(27, 27, 27);
 }
 
 .github {
@@ -30,7 +40,7 @@
     width: 24px;
     border-radius: 10px;
     transform: translateX(3px);
-    background-color: rgb(47, 47, 48);
+    background-color: rgb(45, 46, 48);
     transition: 0.4s;
     cursor: pointer;
 }
@@ -41,7 +51,7 @@
     width: 24px;
     border-radius: 10px;
     transform: translateX(33px);
-    background-color: rgb(47, 47, 48);
+    background-color: rgb(45, 46, 48);
     transition: 0.4s;
     cursor: pointer;
 }
@@ -54,10 +64,18 @@
     padding: 24px;
 }
 
-.link,
-.link:visited {
+.link#light,
+.link#light:visited {
     font-size: 28px;
     text-decoration: none;
     color: rgb(47, 47, 48);
+    cursor: pointer;
+}
+
+.link#dark,
+.link#dark:visited {
+    font-size: 28px;
+    text-decoration: none;
+    color: rgb(163, 166, 169);
     cursor: pointer;
 }
