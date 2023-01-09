@@ -14,7 +14,7 @@
     cursor: pointer;
 }
 
-.dark-mode {
+.slider-div {
     width: 60px;
     height: 30px;
     border-radius: 10px;
@@ -24,18 +24,26 @@
     align-items: center;
 }
 
-.slider {
+.light#slider {
     border: none;
     height: 24px;
     width: 24px;
     border-radius: 10px;
     transform: translateX(3px);
     background-color: rgb(47, 47, 48);
-    transition: 0.5s;
+    transition: 0.4s;
+    cursor: pointer;
 }
 
-.slider {
+.dark#slider {
+    border: none;
+    height: 24px;
+    width: 24px;
+    border-radius: 10px;
     transform: translateX(33px);
+    background-color: rgb(47, 47, 48);
+    transition: 0.4s;
+    cursor: pointer;
 }
 
 .links {
@@ -46,7 +54,10 @@
     padding: 24px;
 }
 
-.link {
-    font-size: 26px;
+.link,
+.link:visited {
+    font-size: 28px;
+    text-decoration: none;
+    color: rgb(47, 47, 48);
     cursor: pointer;
 }
