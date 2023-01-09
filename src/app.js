@@ -22,7 +22,7 @@ function App() {
       <React.Fragment>
           <div className={theme} id='app' >
             <Header theme={theme} toggleTheme={toggleTheme} />
-            <Main />
+            <Main theme={theme} />
           </div>
       </React.Fragment>
   );
