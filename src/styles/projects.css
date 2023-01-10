@@ -1,0 +1,51 @@
+.project-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 20px;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.project-image {
+    height: 300px;
+    width: 300px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.project-name {
+    position: absolute;
+    color: white;
+    opacity: 0;
+    transition: 0.5s;
+    font-size: 32px;
+}
+
+.opaque {
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    opacity: 0;
+    transition:0.5s;
+    border-radius: 10px;
+}
+
+.container:hover .opaque,
+.container:hover .project-name{
+    opacity: 0.8;
+}
+
+.container:hover .project-image {
+    opacity: 0.5;
+}
