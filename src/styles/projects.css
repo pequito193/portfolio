@@ -22,7 +22,15 @@
     border-radius: 10px;
 }
 
-.project-name {
+.project-name#light {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    opacity: 0;
+    transition: 0.5s;
+    font-size: 32px;
+}
+
+.project-name#dark {
     position: absolute;
     color: white;
     opacity: 0;
@@ -30,7 +38,18 @@
     font-size: 32px;
 }
 
-.opaque {
+.opaque#light {
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    background-color: rgba(226, 226, 226, 0.7);
+    padding: 10px;
+    opacity: 0;
+    transition:0.5s;
+    border-radius: 10px;
+}
+
+.opaque#dark {
     position: absolute;
     width: 280px;
     height: 280px;
@@ -41,11 +60,16 @@
     border-radius: 10px;
 }
 
-.container:hover .opaque,
-.container:hover .project-name{
-    opacity: 0.8;
+.container:hover .opaque#light,
+.container:hover .opaque#dark {
+    opacity: 0.4;
+}
+
+.container:hover .project-name#light,
+.container:hover .project-name#dark {
+    opacity: 1;
 }
 
 .container:hover .project-image {
-    opacity: 0.5;
+    opacity: 0.4;
 }
