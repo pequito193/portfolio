@@ -31,9 +31,16 @@ function Projects(props) {
                 </a>
                 <a href="https://github.com/pequito193/forum-frontend">
                     <div className="container">
-                        <img src={require('./../assets/forum-frontend.png')} alt="preview of forum project" className="project-image" />
+                        <img src={require('./../assets/forum.png')} alt="preview of forum project" className="project-image" />
                         <div className="opaque" id={theme} />
-                        <div className="project-name" id={theme}>Forum</div>
+                        <div className="project-name" id={theme}>Forum Frontend</div>
+                    </div>
+                </a>
+                <a href="https://github.com/pequito193/forum-api">
+                    <div className="container">
+                        <img src={require('./../assets/forum.png')} alt="preview of forum project" className="project-image" />
+                        <div className="opaque" id={theme} />
+                        <div className="project-name" id={theme}>Forum Backend</div>
                     </div>
                 </a>
             </div>
