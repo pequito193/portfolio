@@ -20,7 +20,7 @@ function App() {
 
   return (
       <React.Fragment>
-          <div className={theme} id='app' >
+          <div className={`${theme} app`}>
             <Header theme={theme} toggleTheme={toggleTheme} />
             <Main theme={theme} />
           </div>

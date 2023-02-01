@@ -3,15 +3,15 @@
   padding: 0;
 }
 
-#app {
-  height: 100vh;
-  transition: 0.5s;
+.app {
+  min-height: 100vh;
+  transition: 0.4s;
 }
 
-.light#app {
-  background-color: rgb(241, 241, 241);
+.light.app {
+  background-color: rgb(237, 237, 237);
 }
 
-.dark#app {
+.dark.app {
   background-color: rgb(32, 33, 36);
 }

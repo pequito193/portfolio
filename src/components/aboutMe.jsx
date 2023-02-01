@@ -20,7 +20,64 @@ function AboutMe(props) {
                 <p className={`${theme} introduction`}> I love working with both frontend and backend software, so feel free to contact if you share the same passion!</p>
             </div>
             <div className="wrapper">
-                <h1 className={theme}  >Tools and Skills</h1>
+                <h1 className={`${theme} title`}>Tools and Skills</h1>
+            </div>
+            <div className="skills-wrapper">
+                <div className={`${theme} card`}>
+                    <h2 className={`${theme} sub-title`}>Frontend</h2>
+                    <div className="skill-list">
+                        <div className="skill-wrapper">
+                            <img className="software-logo" src={require('./../assets/html.png')} alt="logo" />
+                            <p className={`${theme} skill-name`}>HTML</p>
+                        </div>
+                        <div className="skill-wrapper">
+                            <img className="software-logo" src={require('./../assets/css.png')} alt="logo" />
+                            <p className={`${theme} skill-name`}>CSS</p>
+                        </div>
+                        <div className="skill-wrapper">
+                            <img className="software-logo" src={require('./../assets/javascript.png')} alt="logo" />
+                            <p className={`${theme} skill-name`}>JavaScript</p>
+                        </div>
+                        <div className="skill-wrapper">
+                            <img className="software-logo" src={require('./../assets/react.png')} alt="logo" />
+                            <p className={`${theme} skill-name`}>React</p>
+                        </div>
+                    </div>
+                </div>
+                <div className={`${theme} card`}>
+                    <h2 className={`${theme} sub-title`}>Backend</h2>
+                    <div className="skill-list">
+                        <div className="skill-wrapper">
+                            <img className="software-logo" src={require('./../assets/nodejs.png')} alt="logo" />
+                            <p className={`${theme} skill-name`}>NodeJS</p>
+                        </div>
+                        <div className="skill-wrapper">
+                            <img className="software-logo" src={require('./../assets/expressjs.png')} alt="logo" />
+                            <p className={`${theme} skill-name`}>ExpressJS</p>
+                        </div>
+                        <div className="skill-wrapper">
+                            <img className="software-logo" src={require('./../assets/mongodb.png')} alt="logo" />
+                            <p className={`${theme} skill-name`}>MongoDB</p>
+                        </div>
+                    </div>
+                </div>
+                <div className={`${theme} card`}>
+                    <h2 className={`${theme} sub-title`}>Others</h2>
+                    <div className="skill-list">
+                        <div className="skill-wrapper">
+                            <img className="software-logo" src={require('./../assets/npm.png')} alt="logo" />
+                            <p className={`${theme} skill-name`}>NPM</p>
+                        </div>
+                        <div className="skill-wrapper">
+                            <img className="software-logo" src={require('./../assets/git.png')} alt="logo" />
+                            <p className={`${theme} skill-name`}>Git</p>
+                        </div>
+                        <div className="skill-wrapper">
+                            <img className={`${theme} software-logo`} src={require('./../assets/github.png')} alt="logo" />
+                            <p className={`${theme} skill-name`}>Github</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div className="wrapper">
                 <h1 className={`${theme} title`}>Contact me here</h1>

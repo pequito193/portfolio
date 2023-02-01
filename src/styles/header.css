@@ -91,7 +91,7 @@
 .light.link:visited {
     font-size: 28px;
     text-decoration: none;
-    color: rgb(47, 47, 48);
+    color: rgb(39, 39, 39);
     cursor: pointer;
 }
 
@@ -99,6 +99,6 @@
 .dark.link:visited {
     font-size: 28px;
     text-decoration: none;
-    color: rgb(163, 166, 169);
+    color: rgb(186, 186, 186);
     cursor: pointer;
 }
