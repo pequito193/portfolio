@@ -22,7 +22,7 @@
     border-radius: 10px;
 }
 
-.project-name#light {
+.light.project-name {
     position: absolute;
     color: rgb(0, 0, 0);
     opacity: 0;
@@ -30,7 +30,7 @@
     font-size: 32px;
 }
 
-.project-name#dark {
+.dark.project-name {
     position: absolute;
     color: white;
     opacity: 0;
@@ -38,7 +38,7 @@
     font-size: 32px;
 }
 
-.opaque#light {
+.light.opaque {
     position: absolute;
     width: 280px;
     height: 280px;
@@ -49,7 +49,7 @@
     border-radius: 10px;
 }
 
-.opaque#dark {
+.dark.opaque {
     position: absolute;
     width: 280px;
     height: 280px;
@@ -60,13 +60,11 @@
     border-radius: 10px;
 }
 
-.container:hover .opaque#light,
-.container:hover .opaque#dark {
+.container:hover .opaque {
     opacity: 0.4;
 }
 
-.container:hover .project-name#light,
-.container:hover .project-name#dark {
+.container:hover .project-name {
     opacity: 1;
 }
 

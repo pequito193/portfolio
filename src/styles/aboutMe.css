@@ -2,23 +2,23 @@
     padding: 28px;
 }
 
-.light#title {
+.light.title {
     font-size: 32px;
     color: rgb(18, 18, 18);
     margin-bottom: 18px;
 }
 
-.dark#title {
+.dark.title {
     font-size: 32px;
     color: rgb(188, 188, 188);
     margin-bottom: 18px;
 }
 
-.light#introduction {
+.light.introduction {
     font-size: 20px;
 }
 
-.dark#introduction {
+.dark.introduction {
     font-size: 20px;
     color: rgb(210, 210, 210);
 }
@@ -29,14 +29,14 @@
     gap: 24px;
 }
 
-.light#github {
+.light.github {
     height: 50px;
     width: 50px;
     cursor: pointer;
     transition: 0.5s;
 }
 
-.dark#github {
+.dark.github {
     height: 50px;
     width: 50px;
     cursor: pointer;
@@ -55,7 +55,7 @@
 }
 
 .email:hover,
-.light#github:hover,
-.dark#github:hover {
+.light.github:hover,
+.dark.github:hover {
     opacity: 65%;
 }

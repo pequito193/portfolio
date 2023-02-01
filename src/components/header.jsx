@@ -8,15 +8,15 @@ function Header(props) {
 
     return(
         <React.Fragment>
-            <div className={theme} id="header">
+            <div className={`${theme} header`}>
                 <a target='_blank' rel="noreferrer" href="http://github.com/pequito193"><img src={require('./../assets/github.png')} alt="github logo" className="logo"/></a>
                 <div className="slider-div" onClick={toggleTheme}>
-                    <button type="button" onClick={toggleTheme} className={theme} id='slider'></button>
+                    <button type="button" onClick={toggleTheme} className={`${theme} slider`}></button>
                 </div>
             </div>
-            <ul className={theme} id="links">
-                <li><Link to={'/portfolio/'} className="link" id={theme}>Projects</Link></li>
-                <li><Link to={'/portfolio/contact'} className="link" id={theme}>About Me</Link></li>
+            <ul className={`${theme} links`}>
+                <li><Link to={'/portfolio/'} className={`${theme} link`}>Projects</Link></li>
+                <li><Link to={'/portfolio/contact'} className={`${theme} link`}>About Me</Link></li>
             </ul>
         </React.Fragment>
     )
