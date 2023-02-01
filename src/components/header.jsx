@@ -15,8 +15,8 @@ function Header(props) {
                 </div>
             </div>
             <ul className={`${theme} links`}>
-                <li><Link to={'/portfolio/'} className={`${theme} link`}>Projects</Link></li>
-                <li><Link to={'/portfolio/contact'} className={`${theme} link`}>About Me</Link></li>
+                <li><Link to={'/'} className={`${theme} link`}>Projects</Link></li>
+                <li><Link to={'/contact'} className={`${theme} link`}>About Me</Link></li>
             </ul>
         </React.Fragment>
     )
