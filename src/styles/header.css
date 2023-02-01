@@ -6,7 +6,7 @@
     justify-content: space-between;
     box-shadow: 4px 4px 6px rgb(173, 173, 173);
     animation-name: dropdown;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
 }
 
 .dark#header {
@@ -17,7 +17,7 @@
     justify-content: space-between;
     box-shadow: 4px 4px 6px rgb(27, 27, 27);
     animation-name: dropdown;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
 }
 
 @keyframes dropdown {
@@ -54,7 +54,7 @@
     border-radius: 10px;
     transform: translateX(3px);
     background-color: rgb(45, 46, 48);
-    transition: 0.4s;
+    transition: 0.3s;
     cursor: pointer;
 }
 
@@ -65,7 +65,7 @@
     border-radius: 10px;
     transform: translateX(33px);
     background-color: rgb(45, 46, 48);
-    transition: 0.4s;
+    transition: 0.3s;
     cursor: pointer;
 }
 
